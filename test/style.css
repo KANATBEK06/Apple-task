@@ -1,0 +1,93 @@
+*{
+    box-sizing: border;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color:blue;
+    text-align: center;
+}
+.logo{
+    width: 180px;
+    height: 150px;
+    display: inline-block;
+    margin-top: 25px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.ds{
+    width: 1000px;
+    height: 200px;
+    background-color:#fff;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.bt{
+    margin-left: 20px;
+    display: inline-block;
+    width: 80px;
+    height: 22px;
+    background-color:blue;
+    color: white;
+}
+.akcha{
+    display: inline-block;
+    margin-left: 20px;
+}
+#plus{
+    width: 23px;
+    height: 22px;
+    background-color: green;
+    border: 2px solid rgb(105, 105, 105 );
+    color: white;
+}
+#minus{
+    width: 23px;
+    height: 22px;
+    background-color: green;
+    border: 2px solid rgb(105, 105, 105);
+    color: white;
+}
+#x{
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.checkbox{
+    background-image: url(./img/like.do.png);
+    background-size: cover;
+    width: 75px;
+    height: 60px;
+    /* position:relative; */
+}
+.spann{
+    background-image: url(./img/like.posle.png);
+    background-size: cover;
+    width: 75px;
+    height: 60px;
+    display: flex;
+}
+.inp{
+    appearance: none;
+    width: 75px;
+    height: 70px;
+}
+#count{
+    margin: 0;
+    width: 23px;
+    height: 22px;
+    border: 1px;
+    background-color: green;
+    color: white;
+}
+.color{
+    color: rgb(101, 100, 100);
+    position: absolute;
+    margin: 120px 0 0 -300px ;
+    font-size: 18px;
+}
